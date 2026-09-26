@@ -1,6 +1,12 @@
 # Business Card Website
 
-Personal business card website. Built with Next.js 16 and deployed on Vercel.
+The website for [zaruszaj.pl](https://www.zaruszaj.pl/): custom PC builds, hardware advice, technical help, and web development in Kraków. Built with Next.js 16 and deployed on Vercel.
+
+[Visit the live site](https://www.zaruszaj.pl/) · [Development project](https://github.com/users/kris1027/projects/10)
+
+![zaruszaj.pl social preview highlighting computer builds and web development in Kraków](https://www.zaruszaj.pl/opengraph-image)
+
+The site is live. It includes service details, an inquiry form, responsive navigation, and SEO metadata. The GitHub project tracks ongoing fixes and improvements. The image above is the site's social preview, not a screenshot of the interface.
 
 ## Tech Stack
 

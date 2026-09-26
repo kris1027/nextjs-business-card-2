@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a problem with the zaruszaj.pl website.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please use test details when reporting contact-form problems. Do not post private client inquiries or credentials.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include what you expected to happen.
+      placeholder: The inquiry form showed an error after I submitted test details.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the contact page.
+        2. Select a service and enter test details.
+        3. Submit the form.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+      placeholder: /kontakt
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Safari on iPhone or Firefox on desktop
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add a redacted screenshot or error message if useful.
