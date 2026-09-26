@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest an improvement to zaruszaj.pl.
+labels: [feature]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What problem would this solve?
+      description: Describe the visitor or maintainer need.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a useful result look like?
+      description: A short example is enough; implementation details are optional.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add relevant pages, mobile behavior, or accessibility needs.
